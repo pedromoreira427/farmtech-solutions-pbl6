@@ -37,16 +37,16 @@ Total		80 imagens	64	8	8 *
 ## 📁 Estrutura de pastas
 
 farmtech-fase6/
-│
-├──  NomeCompleto_rmXXXXX_pbl_fase6.ipynb   ← Notebook principal (Entregas 1 e 2)
-│
-├── dataset/
-│   ├── images/
-│   │   ├── train/          ← 64 imagens de treino
-│   │   ├── val/            ← 8 imagens de validação
-│   │   └── test/           ← 8 imagens de teste
-│   └── labels/
-│       ├── train/          ← Anotações YOLO (.txt) geradas no Make Sense AI
+
+NomeCompleto_rmXXXXX_pbl_fase6.ipynb   ← Notebook principal (Entregas 1 e 2)
+
+ dataset/
+    images/
+      ├── train/          ← 64 imagens de treino
+   │   ├── val/            ← 8 imagens de validação
+   │   └── test/           ← 8 imagens de teste
+   └── labels/
+       ├── train/          ← Anotações YOLO (.txt) geradas no Make Sense AI
 │       └── val/            ← Anotações YOLO (.txt) de validação
 │
 ├── resultados/
