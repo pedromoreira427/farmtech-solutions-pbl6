@@ -54,7 +54,28 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+*Como Executar
+Pré-requisitos
+Conta Google (para Google Colab + Drive)
+GPU ativada no Colab: `Runtime → Change runtime type → T4 GPU`
+Passo a Passo
+1. Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/farmtech-fase6.git
+```
+2. Organize suas imagens no Google Drive
+```
+MyDrive/FarmTech_Fase6/
+├── dataset/images/train/   ← suas 64 imagens (nomeadas cat_*.jpg e dog_*.jpg)
+├── dataset/images/val/     ← suas 8 imagens de validação
+├── dataset/images/test/    ← suas 8 imagens de teste
+└── dataset/labels/train/   ← labels .txt exportados do Make Sense AI
+```
+3. Abra o notebook no Google Colab
+![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)
+4. Execute as células em ordem — o notebook está organizado em seções com comentários detalhados em cada célula.
+---
+*
 
 
 ## 🗃 Histórico de lançamentos
