@@ -11,7 +11,7 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a >Pedro Gustavo França Moreira <
+- <a >Pedro Gustavo França Moreira 
 
 ## 👩‍🏫 Professores:
 ### Coordenador(a)
@@ -36,21 +36,29 @@ Total		80 imagens	64	8	8 *
 
 ## 📁 Estrutura de pastas
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
-
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+farmtech-fase6/
+│
+├──  NomeCompleto_rmXXXXX_pbl_fase6.ipynb   ← Notebook principal (Entregas 1 e 2)
+│
+├── dataset/
+│   ├── images/
+│   │   ├── train/          ← 64 imagens de treino
+│   │   ├── val/            ← 8 imagens de validação
+│   │   └── test/           ← 8 imagens de teste
+│   └── labels/
+│       ├── train/          ← Anotações YOLO (.txt) geradas no Make Sense AI
+│       └── val/            ← Anotações YOLO (.txt) de validação
+│
+├── resultados/
+│   ├── farmtech_30ep/      ← Métricas e pesos do treino com 30 épocas
+│   ├── farmtech_60ep/      ← Métricas e pesos do treino com 60 épocas
+│   ├── comparativo_30_60_epocas.png
+│   ├── cnn_treinamento.png
+│   ├── cnn_confusion_matrix.png
+│   └── comparativo_final.png
+│
+├──  farmtech_dataset.yaml  ← Configuração do dataset para YOLOv5
+└──  README.md              ← Este arquivo
 
 ## 🔧 Como executar o código
 
