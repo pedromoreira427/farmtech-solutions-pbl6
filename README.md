@@ -11,22 +11,27 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a >Pedro Gustavo França Moreira <
 
 ## 👩‍🏫 Professores:
-### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Andre Godoi </a>
 
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+*Contexto do Projeto
+A FarmTech Solutions está expandindo seus serviços de IA para além do agronegócio. Entre os novos projetos, a empresa passou a atuar na área de visão computacional, oferecendo soluções para saúde animal, segurança patrimonial, controle de acesso e análise de documentos.
+
+Neste notebook, demonstramos para um cliente fictício da FarmTech como funciona um sistema completo de visão computacional na prática, utilizando o framework YOLOv5 para detecção de objetos.
+
+Cenário Escolhido: Detecção de Gatos vs Cachorros
+Escolhemos um cenário de saúde animal e controle de acesso em fazendas — identificar automaticamente se o animal presente é um gato ou um cachorro. Isso pode ser integrado a câmeras em portões, canis ou clínicas veterinárias parceiras da FarmTech.
+
+Classe	Objeto	Quantidade	Treino	Validação	Teste
+0	Gato (cat)	40 imagens	32	4	4
+1	Cachorro (dog)	40 imagens	32	4	4
+Total		80 imagens	64	8	8 *
 
 
 ## 📁 Estrutura de pastas
@@ -54,16 +59,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
+* 01/05/2026 * 
 
 ## 📋 Licença
 
