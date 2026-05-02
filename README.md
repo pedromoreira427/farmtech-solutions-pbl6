@@ -38,27 +38,44 @@ Total		80 imagens	64	8	8 *
 
 farmtech-fase6/
 
-NomeCompleto_rmXXXXX_pbl_fase6.ipynb   ← Notebook principal (Entregas 1 e 2)
-
- dataset/
-    images/
-      ├── train/          ← 64 imagens de treino
-   │   ├── val/            ← 8 imagens de validação
-   │   └── test/           ← 8 imagens de teste
-   └── labels/
-       ├── train/          ← Anotações YOLO (.txt) geradas no Make Sense AI
-│       └── val/            ← Anotações YOLO (.txt) de validação
+farmtech-fase6/
 │
-├── resultados/
-│   ├── farmtech_30ep/      ← Métricas e pesos do treino com 30 épocas
-│   ├── farmtech_60ep/      ← Métricas e pesos do treino com 60 épocas
-│   ├── comparativo_30_60_epocas.png
-│   ├── cnn_treinamento.png
-│   ├── cnn_confusion_matrix.png
-│   └── comparativo_final.png
+├── 📓 Pedrogustavofrancanmoreira_rm568262_pbl_fase6.ipynb
+│   └── Notebook Jupyter com toda a solução (Entregas 1 e 2)
+│       ├── Entrega 1: YOLOv5 Customizado (30 e 60 épocas)
+│       ├── Entrega 2: YOLO Tradicional + CNN do Zero
+│       └── Análise comparativa final
 │
-├──  farmtech_dataset.yaml  ← Configuração do dataset para YOLOv5
-└──  README.md              ← Este arquivo
+├── 📄 README.md
+│   └── Este arquivo (documentação do projeto)
+│
+├── 📝 farmtech_dataset.yaml
+│   └── Arquivo de configuração do dataset para YOLOv5
+│
+├── 📁 document/
+│   ├── README.md (documentação adicional)
+│   └── Outros documentos do projeto
+│
+├── 📁 config/
+│   └── Arquivos de configuração
+│
+├── 📁 assets/
+│   └── Imagens e recursos visuais
+│
+├── 📁 scripts/
+│   └── Scripts auxiliares (se necessário)
+│
+├── 📁 src/
+│   └── Código-fonte adicional
+│
+├── 📄 link para acesso ao drive.txt
+│   └── Link para a pasta do dataset no Google Drive
+│
+├── 📄 .gitignore
+│   └── Arquivos ignorados pelo Git
+│
+└── 📄 .gitattributes
+    └── Configurações de atributos do Git
 
 ## 🔧 Como executar o código
 
