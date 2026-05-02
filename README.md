@@ -35,7 +35,7 @@ Total		80 imagens	64	8	8 *
 
 
 ## 📁 Estrutura de pastas
-
+'''
 farmtech-fase6/
 │
 ├── 📓 Pedrogustavofrancanmoreira_rm568262_pbl_fase6.ipynb
@@ -74,7 +74,7 @@ farmtech-fase6/
 │
 └── 📄 .gitattributes
     └── Configurações de atributos do Git
-
+'''
 
 === ESTRUTURA DO DATASET NO GOOGLE DRIVE ===
 
