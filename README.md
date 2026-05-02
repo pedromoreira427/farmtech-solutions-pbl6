@@ -37,8 +37,6 @@ Total		80 imagens	64	8	8 *
 ## 📁 Estrutura de pastas
 
 farmtech-fase6/
-
-farmtech-fase6/
 │
 ├── 📓 Pedrogustavofrancanmoreira_rm568262_pbl_fase6.ipynb
 │   └── Notebook Jupyter com toda a solução (Entregas 1 e 2)
@@ -76,6 +74,96 @@ farmtech-fase6/
 │
 └── 📄 .gitattributes
     └── Configurações de atributos do Git
+
+
+=== ESTRUTURA DO DATASET NO GOOGLE DRIVE ===
+
+FarmTech_Fase6/
+│
+├── dataset/
+│   ├── images/
+│   │   ├── train/          ← 64 imagens (32 gatos + 32 cachorros)
+│   │   │   ├── cat_001.jpg
+│   │   │   ├── cat_002.jpg
+│   │   │   │   ...
+│   │   │   ├── dog_001.jpg
+│   │   │   ├── dog_002.jpg
+│   │   │   └── ...
+│   │   ├── val/            ← 8 imagens (4 gatos + 4 cachorros)
+│   │   │   ├── cat_033.jpg
+│   │   │   ├── cat_034.jpg
+│   │   │   ├── dog_033.jpg
+│   │   │   └── dog_034.jpg
+│   │   └── test/           ← 8 imagens (4 gatos + 4 cachorros)
+│   │       ├── cat_037.jpg
+│   │       ├── cat_038.jpg
+│   │       ├── dog_037.jpg
+│   │       └── dog_038.jpg
+│   │
+│   └── labels/
+│       ├── train/          ← 64 arquivos .txt (anotações YOLO)
+│       │   ├── cat_001.txt
+│       │   ├── cat_002.txt
+│       │   │   ...
+│       │   ├── dog_001.txt
+│       │   ├── dog_002.txt
+│       │   └── ...
+│       └── val/            ← 8 arquivos .txt
+│           ├── cat_033.txt
+│           ├── cat_034.txt
+│           ├── dog_033.txt
+│           └── dog_034.txt
+│
+└── resultados/
+    ├── farmtech_30ep/      ← Resultados do treino com 30 épocas
+    │   ├── weights/
+    │   │   └── best.pt
+    │   ├── results.csv
+    │   ├── confusion_matrix.png
+    │   ├── F1_curve.png
+    │   ├── PR_curve.png
+    │   └── results.png
+    │
+    ├── farmtech_60ep/      ← Resultados do treino com 60 épocas
+    │   ├── weights/
+    │   │   └── best.pt
+    │   ├── results.csv
+    │   ├── confusion_matrix.png
+    │   ├── F1_curve.png
+    │   ├── PR_curve.png
+    │   └── results.png
+    │
+    ├── teste_30ep/         ← Detecções nas imagens de teste (30ep)
+    │   ├── cat_037.jpg
+    │   ├── cat_038.jpg
+    │   ├── dog_037.jpg
+    │   └── dog_038.jpg
+    │
+    ├── teste_60ep/         ← Detecções nas imagens de teste (60ep)
+    │   ├── cat_037.jpg
+    │   ├── cat_038.jpg
+    │   ├── dog_037.jpg
+    │   └── dog_038.jpg
+    │
+    ├── dataset_cnn/
+    │   ├── train/
+    │   │   ├── cat/        ← 32 imagens de gato
+    │   │   └── dog/        ← 32 imagens de cachorro
+    │   ├── val/
+    │   │   ├── cat/        ← 4 imagens de gato
+    │   │   └── dog/        ← 4 imagens de cachorro
+    │   └── test/
+    │       ├── cat/        ← 4 imagens de gato
+    │       └── dog/        ← 4 imagens de cachorro
+    │
+    ├── cnn_melhor_modelo.h5
+    ├── cnn_treinamento.png
+    ├── cnn_confusion_matrix.png
+    ├── cnn_predicoes_teste.png
+    ├── comparativo_30_60_epocas.png
+    ├── comparativo_final.png
+    └── farmtech_dataset.yaml
+
 
 ## 🔧 Como executar o código
 
